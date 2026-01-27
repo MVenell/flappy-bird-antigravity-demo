@@ -1,0 +1,15 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Allow authenticated users to create and update their own scores
+    match /scores/{scoreId} {
+      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
+      allow update: if request.auth != null && resource.data.userId == request.auth.uid;
+      
+      // Allow users to read their own scores
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+    }
+  }
+}

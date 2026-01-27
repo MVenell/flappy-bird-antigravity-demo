@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "887148762790",
+    "project_id": "flappy-cube-antigravity",
+    "storage_bucket": "flappy-cube-antigravity.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887148762790:android:9d934211619e43975d4667",
+        "android_client_info": {
+          "package_name": "com.mvenell.flappycube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887148762790-8p5bhnhbrcjkf18g0qv9blk54j66jcnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mvenell.flappycube",
+            "certificate_hash": "cd669b04b679ac22b7c7147c66874959dc49d96e"
+          }
+        },
+        {
+          "client_id": "887148762790-9tdjoengr0q8lk8sncun37um1824k6mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP5_lXNG5CLru7Dm29rbROgusL5FGQcXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887148762790-9tdjoengr0q8lk8sncun37um1824k6mr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "887148762790-476kraalhppgqhg530uvjolu206b2d3i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.antigravityDemo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

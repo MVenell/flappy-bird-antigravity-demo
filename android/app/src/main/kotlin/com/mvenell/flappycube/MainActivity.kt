@@ -1,4 +1,4 @@
-package com.example.antigravity_demo
+package com.mvenell.flappycube
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,0 +1,25 @@
+{
+    "firestore": {
+        "rules": "firestore.rules"
+    },
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "flappy-cube-antigravity",
+                    "appId": "1:887148762790:android:9d934211619e43975d4667",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "flappy-cube-antigravity",
+                    "configurations": {
+                        "android": "1:887148762790:android:9d934211619e43975d4667",
+                        "web": "1:887148762790:web:5e9d450092b7dbb05d4667"
+                    }
+                }
+            }
+        }
+    }
+}
